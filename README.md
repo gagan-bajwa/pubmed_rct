@@ -30,6 +30,7 @@ Before you begin, ensure you have the following installed:
    ```bash
    git clone https://github.com/gagan-bajwa/pubmed_rct.git
    cd your-repo
-   ![Example Image](ex1.png)
-   ![Working](ex2.png)
-   ![Results](ex3.png)
+
+![Example Image](ex1.png)
+![Working](ex2.png)
+![Results](ex3.png)
