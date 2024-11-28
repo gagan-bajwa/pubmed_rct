@@ -1,0 +1,14 @@
+pandas
+numpy<2
+scikit-learn
+tensorflow<2.11
+ipykernel
+tensorflow-hub
+matplotlib
+seaborn
+transformers
+datasets
+nltk
+streamlit
+pillow
+flask

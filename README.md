@@ -1,40 +1,32 @@
-# PubMed RCT Classifier
+# Project Name
 
-This project is a machine learning model designed to classify **randomized controlled trials (RCTs)** from PubMed abstracts. The model processes text data from PubMed and categorizes the RCTs into different groups based on predefined labels. This project is intended for researchers and practitioners working with biomedical literature, particularly those involved in clinical trials.
+**Classification of PubMed Abstracts into Various Classes**
 
-## Table of Contents
-- [Project Overview](#project-overview)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Dataset](#dataset)
-- [Model Architecture](#model-architecture)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
+This project uses a machine learning model to classify PubMed abstracts into various categories such as Background, Methods, Results, and Conclusions. The model is trained on a dataset of PubMed articles and can predict the class of text based on abstract content.
 
-## Project Overview
-This project aims to implement a classifier for identifying randomized controlled trials (RCTs) in PubMed. Using a combination of Natural Language Processing (NLP) techniques and machine learning models, the system extracts relevant information from PubMed abstracts and categorizes them into different RCT-related classes.
+### Features:
+- Classifies abstracts into multiple categories: Background, Methods, Results, and Conclusions.
+- Built using **Flask** and **Transformers**
+- Model 1 is a pre-trained model (133 MB) for abstract classification.
 
-### Key Features:
-- Text preprocessing pipeline
-- Data cleaning and tokenization
-- Implementation of machine learning models for text classification
-- Model evaluation metrics for classification performance
+---
 
-## Requirements
-- Python 3.7+
-- Libraries: 
-  - `numpy`
-  - `pandas`
-  - `scikit-learn`
-  - `tensorflow` 
-  - `matplotlib` (for visualizations)
-  - `seaborn`
-  - `requests` (for data fetching)
+## Getting Started
 
-## Installation
-1. Clone the repository:
+These instructions will help you get the project up and running on your local machine for development and testing.
+
+### Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- Python (>= 3.7)
+- pip (Python package installer)
+- Git (for version control)
+- Docker (if using Docker to containerize the app)
+
+### Installation
+
+1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/pubmed-rct-classifier.git
-   cd pubmed-rct-classifier
+   git clone https://github.com/gagan-bajwa/pubmed_rct.git
+   cd your-repo
